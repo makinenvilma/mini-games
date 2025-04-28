@@ -4,15 +4,15 @@ public class ColorManager : MonoBehaviour
 {
     public static ColorManager Instance;
 
-    public Color SelectedColor = Color.red;
+    public Color SelectedColor = Color.white;
 
     private void Awake()
     {
         Instance = this;
     }
 
-    public void SetColor(Color newColor)
+    public void SetRed()
     {
-        SelectedColor = newColor;
+        SelectedColor = Color.red;
     }
 }

@@ -523,6 +523,7 @@ GameObject:
   - component: {fileID: 343408369}
   - component: {fileID: 343408370}
   - component: {fileID: 343408371}
+  - component: {fileID: 343408372}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -636,6 +637,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.8
+--- !u!114 &343408372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343408368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17ea8ab7625f0242b737b27d743821f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &422885621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,13 +1275,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1836924583}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1836924585}
+        m_TargetAssemblyTypeName: ColorManager, Assembly-CSharp
+        m_MethodName: SetRed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1546,7 +1559,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 967056859}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1836924583}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &967056859
 MonoBehaviour:
   m_ObjectHideFlags: 0
