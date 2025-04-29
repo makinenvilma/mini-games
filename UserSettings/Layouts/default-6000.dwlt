@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -273,12 +273,12 @@ MonoBehaviour:
     height: 557
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,16 +336,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Omistaja\Documents\Koodaus\mini-games
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 56b60000
-    m_LastClickedID: 46678
-    m_ExpandedIDs: 0000000056b6000058b60000
+    m_SelectedIDs: b2b60000
+    m_LastClickedID: 46770
+    m_ExpandedIDs: 00000000f2b50000f4b50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000056b6000058b60000
+    m_ExpandedIDs: 00000000f2b50000f4b50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -522,7 +522,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 08fbffff
+      m_ExpandedIDs: 74e4feff20e5feffcee5feff78e6feff1ce9fefffae9feffa4eafeffe8f5feff8cf6feff160afffff252ffffbe53ffff3a6bfffff47bffff227cffffee89ffffb68afffff68dffffbe90ffff9694ffffb295ffff6a9affff3c9bffff3e9cffffd0bbffff9ebcffff5cbdfffffee5ffff1ae7ffff78efffff1af0ffffd4f0ffff7af3ffff08fbffff32b4000022b7000090b8000080ba0000deef000008f000001af00000d2fb0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -568,8 +568,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 364
-    y: 24
+    x: 363
+    y: 79
     width: 1101
     height: 531
   m_SerializedDataModeController:
@@ -1182,9 +1182,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -46.671444, y: -8.558395, z: 0}
+    m_Target: {x: 502.0214, y: 241.26773, z: 0}
     speed: 2
-    m_Value: {x: -46.671444, y: -8.558395, z: 0}
+    m_Value: {x: 502.0214, y: 241.26773, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1234,9 +1234,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.2842511
+    m_Target: 284.5534
     speed: 2
-    m_Value: 1.2842511
+    m_Value: 284.5534
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1291,8 +1291,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 363
-    y: 79
+    x: 364
+    y: 24
     width: 1101
     height: 531
   m_SerializedDataModeController:

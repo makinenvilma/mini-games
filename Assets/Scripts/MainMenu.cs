@@ -13,6 +13,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("PaintScene");
     }
 
+    public void JumpGame()
+    {
+        SceneManager.LoadScene("JumpScene");
+    }
+
      public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");

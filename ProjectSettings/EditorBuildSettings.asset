@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PuzzleScene.unity
     guid: 92125699bf47a6943b7c0d1a3aa4ddd2
+  - enabled: 1
+    path: Assets/Scenes/JumpScene.unity
+    guid: 17d1e66b1d1ff4042a07ebbc7d8714e9
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 1bebc4135def33c43a8f6d220054c913, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
