@@ -15,4 +15,24 @@ public class ColorManager : MonoBehaviour
     {
         SelectedColor = Color.red;
     }
+
+    public void SetBlue()
+    {
+        SelectedColor = Color.blue;
+    }
+
+    public void SetGreen()
+    {
+        SelectedColor = Color.green;
+    }
+
+    public void SetYellow()
+    {
+        SelectedColor = Color.yellow;
+    }
+
+    public void SetOrange()
+    {
+        SelectedColor = new Color(1f, 0.5f, 0f);
+    }
 }
